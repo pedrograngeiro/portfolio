@@ -1,0 +1,81 @@
+/* Estilos principais */
+body {
+    background-color: #201920;
+    font-family: 'PT Serif','Roboto', serif, sans-serif;
+    color: #e0dfe0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+/* Nav Styles*/
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+}
+
+.lado-esquerdo {
+	display: flex;
+}
+
+.lado-esquerdo {
+	display: flex;
+}
+
+.nav-wrapper >.lado-esquerdo > div {
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+
+}
+
+.nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+	border-bottom: 1px solid #2BBEF2;
+}
+
+.nav-link-wrapper a:hover {
+	color: #2BBEF2;
+}
+
+.active-nav-link {
+	border-bottom: 1px solid #2BBEF2;
+}
+
+.active-nav-link a {
+	color: #e0dfe0;
+}
+
+
+.caixa {
+    display: inline-block;
+    background-color: #EA37A3;
+    color: #e0dfe0;
+    font-family: 'PT Serif';
+    padding: 20px;
+    width: 300px;
+    height: 110px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+#resultado {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(13, 196, 59, 0.192);
+}
