@@ -60,22 +60,31 @@ body {
 	color: #e0dfe0;
 }
 
+.caixa-status {
+	display: inline-block;
+	text-align: center;
 
-.caixa {
-    display: inline-block;
-    background-color: #EA37A3;
+}
+
+.caixa-win {
+	position: relative;
+    background-color: #D167D8;
     color: #e0dfe0;
     font-family: 'PT Serif';
+	width: 250px;
     padding: 20px;
-    width: 300px;
-    height: 110px;
     margin: 10px;
     border-radius: 3px;
 }
 
-#resultado {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgba(13, 196, 59, 0.192);
+.caixa-lose {
+	position: relative;
+    background-color: #3D293E;
+    color: #e0dfe0;
+    font-family: 'PT Serif';
+	width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
 }
+
